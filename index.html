@@ -78,39 +78,27 @@
                 <img src="image/order_image.png">
             </div>
 
-            <form action="https://formsubmit.co/fritzylopey142@gmail.com" method="POST">
-
-                <div class="input">
-                    <p>Name</p>
-                    <input type="text" name="name" placeholder="Full Name">
+            <form target="_blank" action="https://formsubmit.co/fritzylopey142@gmail.com" method="POST">
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="col">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="col">
+                        <input type="number" name="number" class="form-control" placeholder="Quantity" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Order" required>
+                    </div>
+                    <div class="col">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="input">
-                    <p>Email</p>
-                    <input type="email" name="email" placeholder="Email Address">
-                </div>
-
-                <div class="input">
-                    <p>Number</p>
-                    <input type="number" placeholder="+63">
-                </div>
-
-                <div class="input">
-                    <p>How Much</p>
-                    <input type="number" placeholder="Quantity">
-                </div>
-
-                <div class="input">
-                    <p>Your Order</p>
-                    <input type="text" placeholder="Food Type">
-                </div>
-
-                <div class="input">
-                    <p>Address</p>
-                    <input type="text" placeholder="Home Address">
-                </div>
-                <button type="submit" class="order_btn">Send Order</button>
-
+                <button type="submit" class="order_btn">Submit Form</button>
             </form>
 
         </div>
