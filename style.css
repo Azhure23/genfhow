@@ -767,6 +767,11 @@ img {
     grid-gap: 0 10px;
 }
 
+.order .order_main .note{
+    font-size: 10px;
+    font-weight: bold;
+}
+
 .order .order_main form .input p {
     line-height: 25px;
 }
